@@ -1,59 +1,117 @@
+*{
+    font-size: 100%;
+    margin: 0;
+    line-height: 2;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
 body{
     background-color: rgb(190, 233, 232);
     color: darkslateblue;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    margin: 50px;
 }
 
 p{
     color: rgb(27, 73, 101);
     line-height: 1.5;
+    margin: 6px 100px;
+    padding: 6px 15px;
 }
 
 /* parent + space + nested child (target) */
-ol li {
+ol li{
     color: teal;
+    margin: 0 100px;
+    padding: 0 15px;
 }
 
 h1{
-    color:seagreen;
-    font-size: 40px;
+    color:blue;
+    font-size: 60px;
     font-weight: bolder;
-    text-align: left;
+    text-align: center;
 }
 
-header {
+header{
+    background-color:white;
     text-align: center;
     color: rgb(15, 15, 209);
-    font: ;
+    font-family:"Libre Baskerville", serif;
 }
 
-header h1 {
+header h1{
     text-align: center;
 }
 
-h2, h3 {
-    text-align: center
-}
 h2{
     color: blue;
     font-size: 30px;
     font-weight: bold;
+    text-align: center;
+    margin: 20px 0 0;
 }
 
 h3{
     color:blue;
     font-size: 30px;
     font-weight: bold;
+    text-align: center;
 }
 
 h4{
     color:blue;
-    font-size: 23px;
-    font-weight: normal;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 100px;
+    padding: 0 15px;
 }
 
-#footer {
+#footer{
     text-align: center;
     color: red;
+}
+
+ul{
+    list-style-type: square;
+    margin: 5px 100px;
+    padding: 0 15px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.biz-udpgothic-regular {
+    font-family: "BIZ UDPGothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    color: teal;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: purple;
+}
+
+.banner {
+    background-image: url("./image/dandelion.jpg");
+    width: 100px;
+    height: 100px;
 }
