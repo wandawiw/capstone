@@ -35,6 +35,7 @@ h1{
 }
 
 header{
+    width: 100%;
     text-align: center;
     color: rgb(15, 15, 209);
     font-family:"Libre Baskerville", serif;
@@ -110,7 +111,16 @@ a:visited{
 }
 
 .banner {
-    background-image: url("./image/landscape-4290857_1280.jpg");
-    width: 100px;
     height: 100px;
+    background-image: url("./image/template-3160023_1280.jpg");
+    background-size: cover;
 }
+
+/* Style the header */
+.header {
+    background-image: url("./image/template-3160023_1280.jpg");
+    padding: 20px;
+    text-align: center;
+}
+
+
